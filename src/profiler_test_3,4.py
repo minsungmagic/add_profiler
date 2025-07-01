@@ -218,7 +218,6 @@ def run_training():
     pool.close()
     pool.join()
 
-# 실행 예시
 if __name__ == '__main__':
     profiler = torch.profiler.profile(
         activities=[
